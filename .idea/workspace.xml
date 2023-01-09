@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c651baf-4522-4d9a-8704-7c677b19f4c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/file/FileMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/FileMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/HashMapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructure/map/HashMapMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/udemy/java 2022課程/martinPractice",
+    "last_opened_file_path": "D:/udemy/java 2022課程/java-programming-tutorial-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,13 +69,13 @@
       <recent name="io" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapMain">
-    <configuration name="AutoCloseMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.AutoCloseMain" />
+  <component name="RunManager" selected="Application.InsertSortMain">
+    <configuration name="InsertSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.InsertSortMain" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.HashMapMain" />
+    <configuration name="IteratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.IteratorMain" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
@@ -94,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWebMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.ReadWebMain" />
+    <configuration name="PerformanceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.PerformanceMain" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="dataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,13 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReplaceTxtMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.ReplaceTxtMain" />
+    <configuration name="QueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.queue.QueueMain" />
       <module name="martinPractice" />
-      <option name="PROGRAM_PARAMETERS" value="scores.txt scores1.txt Andrew Programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="dataStructure.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScannerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.ScannerMain" />
+    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.stack.StackMain" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="dataStructure.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashMapMain" />
-      <item itemvalue="Application.ReadWebMain" />
-      <item itemvalue="Application.AutoCloseMain" />
-      <item itemvalue="Application.ReplaceTxtMain" />
-      <item itemvalue="Application.ScannerMain" />
+      <item itemvalue="Application.InsertSortMain" />
+      <item itemvalue="Application.IteratorMain" />
+      <item itemvalue="Application.PerformanceMain" />
+      <item itemvalue="Application.QueueMain" />
+      <item itemvalue="Application.StackMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashMapMain" />
-        <item itemvalue="Application.ReadWebMain" />
-        <item itemvalue="Application.ReplaceTxtMain" />
-        <item itemvalue="Application.ScannerMain" />
-        <item itemvalue="Application.AutoCloseMain" />
+        <item itemvalue="Application.InsertSortMain" />
+        <item itemvalue="Application.IteratorMain" />
+        <item itemvalue="Application.QueueMain" />
+        <item itemvalue="Application.StackMain" />
+        <item itemvalue="Application.PerformanceMain" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +161,8 @@
       <option name="presentableId" value="Default" />
       <updated>1673055042035</updated>
       <workItem from="1673055043149" duration="5812000" />
-      <workItem from="1673071979190" duration="7961000" />
+      <workItem from="1673071979190" duration="8770000" />
+      <workItem from="1673226243662" duration="24948000" />
     </task>
     <servers />
   </component>
