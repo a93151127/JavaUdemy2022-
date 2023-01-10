@@ -2,22 +2,26 @@ package sort;
 
 public class InsertSortMain {
     public static void main(String[] args) {
-        int[] arr = new int[2];
+        int[] arr = new int[5];
         arr[0] = 38;
         arr[1] = 3;
-//        arr[2] = 24;
-//        arr[3] = 56;
-//        arr[4] = 1;
+        arr[2] = 24;
+        arr[3] = 56;
+        arr[4] = 1;
         insertSort(arr);
     }
 
     public static void insertSort(int[] arr) {
         int j = 0;
-        int t = 0;
+        int t = 0;//把值預存在這邊
         for (int i = 1; i < arr.length; i++) {
+            //判斷當前index為i的數值是否有比i-1的小
             if (arr[i] < arr[i - 1]) {
-                t = arr[i];
-                for (j = i - 1; j >= 0 && arr[j] >t ; j--) {
+                t = arr[i];//先把index為i的值預存
+
+                //再從i-1的位置往前比對直到當前位置的index為0,或是當前位置的值比arr[i]小
+                //這邊arr[j]>t而不是arr[j]>=t因此提供了排序的稳定性。插入排序可以是稳定的排序算法
+                for (j = i - 1; j >= 0 && arr[j] > t ; j--) {
                     arr[j+1] = arr[j];
                     System.out.println("j in for======== "+ j);
                 }

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5c651baf-4522-4d9a-8704-7c677b19f4c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dataStructure/HashMapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataStructure/map/HashMapMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/InsertSortMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/InsertSortMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "Console",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,13 +69,13 @@
       <recent name="io" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertSortMain">
-    <configuration name="InsertSortMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.InsertSortMain" />
+  <component name="RunManager" selected="Application.AccountWithoutSync">
+    <configuration name="AccountWithoutSync (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiTreading.AccountWithoutSync" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="multiTreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IteratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.IteratorMain" />
+    <configuration name="AccountWithoutSync (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiTreading.AccountWithoutSync" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
+          <option name="PATTERN" value="multiTreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerformanceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.PerformanceMain" />
+    <configuration name="AccountWithoutSync (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiTreading.AccountWithoutSync" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.*" />
+          <option name="PATTERN" value="multiTreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.queue.QueueMain" />
+    <configuration name="AccountWithoutSync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiTreading.AccountWithoutSync" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.queue.*" />
+          <option name="PATTERN" value="multiTreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataStructure.stack.StackMain" />
+    <configuration name="ExecutorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multiTreading.ExecutorMain" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataStructure.stack.*" />
+          <option name="PATTERN" value="multiTreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InsertSortMain" />
-      <item itemvalue="Application.IteratorMain" />
-      <item itemvalue="Application.PerformanceMain" />
-      <item itemvalue="Application.QueueMain" />
-      <item itemvalue="Application.StackMain" />
+      <item itemvalue="Application.AccountWithoutSync" />
+      <item itemvalue="Application.AccountWithoutSync (1)" />
+      <item itemvalue="Application.AccountWithoutSync (2)" />
+      <item itemvalue="Application.AccountWithoutSync (3)" />
+      <item itemvalue="Application.ExecutorMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertSortMain" />
-        <item itemvalue="Application.IteratorMain" />
-        <item itemvalue="Application.QueueMain" />
-        <item itemvalue="Application.StackMain" />
-        <item itemvalue="Application.PerformanceMain" />
+        <item itemvalue="Application.AccountWithoutSync" />
+        <item itemvalue="Application.AccountWithoutSync (3)" />
+        <item itemvalue="Application.AccountWithoutSync (2)" />
+        <item itemvalue="Application.AccountWithoutSync (1)" />
+        <item itemvalue="Application.ExecutorMain" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +163,7 @@
       <workItem from="1673055043149" duration="5812000" />
       <workItem from="1673071979190" duration="8770000" />
       <workItem from="1673226243662" duration="24948000" />
+      <workItem from="1673312736999" duration="12541000" />
     </task>
     <servers />
   </component>
