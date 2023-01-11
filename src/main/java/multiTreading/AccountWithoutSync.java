@@ -26,7 +26,9 @@ public class AccountWithoutSync {
 
         @Override
         public void run() {
-            account.deposit(1);
+            synchronized (account){
+                account.deposit(1);
+            }
         }
     }
 
@@ -39,7 +41,7 @@ public class AccountWithoutSync {
             return balance;
         }
 
-        public  void deposit(int amount) {
+        public void deposit(int amount) {
             int newBalance = balance + amount;
 
             // This delay is deliberately added to magnify the
