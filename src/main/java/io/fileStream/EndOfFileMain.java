@@ -20,7 +20,6 @@ public class EndOfFileMain {
             }
         } catch (EOFException e) {
             System.out.println("this is the end of file!");
-            System.out.println("this is the end of file!");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
