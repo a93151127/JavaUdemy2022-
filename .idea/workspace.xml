@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5c651baf-4522-4d9a-8704-7c677b19f4c6" name="Changes" comment="test idea commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/fileStream/EndOfFileMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/fileStream/EndOfFileMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +48,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/udemy/java 2022課程/Chapter-17",
+    "last_opened_file_path": "D:/udemy/java 2022課程/martinPractice/src/main/java/io/fileStream",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
@@ -63,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\udemy\java 2022課程\martinPractice\src\main\java\io\fileStream" />
       <recent name="D:\udemy\java 2022課程\martinPractice" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -72,13 +73,27 @@
       <recent name="io" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EndOfFileMain">
+  <component name="RunManager" selected="Application.CopyMain">
     <configuration name="BinaryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="recursive.BinaryMain" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="recursive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyMain" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.fileStream.CopyMain" />
+      <module name="martinPractice" />
+      <option name="PROGRAM_PARAMETERS" value="test.dat 1.dat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.fileStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,25 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursive.SelectionMain" />
-      <module name="martinPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursive.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.CopyMain" />
       <item itemvalue="Application.BinaryMain" />
       <item itemvalue="Application.DataStreamMain" />
       <item itemvalue="Application.EndOfFileMain" />
       <item itemvalue="Application.FileStreamMain" />
-      <item itemvalue="Application.SelectionMain" />
     </list>
     <recent_temporary>
       <list>
@@ -151,7 +153,6 @@
         <item itemvalue="Application.DataStreamMain" />
         <item itemvalue="Application.FileStreamMain" />
         <item itemvalue="Application.BinaryMain" />
-        <item itemvalue="Application.SelectionMain" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,8 @@
       <workItem from="1675158733336" duration="466000" />
       <workItem from="1675222344650" duration="1707000" />
       <workItem from="1675304146940" duration="17043000" />
-      <workItem from="1675331547961" duration="397000" />
+      <workItem from="1675331547961" duration="436000" />
+      <workItem from="1675391046545" duration="5084000" />
     </task>
     <task id="LOCAL-00001" summary="test idea commit">
       <created>1675331858502</created>
