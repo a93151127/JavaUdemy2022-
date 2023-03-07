@@ -4,25 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c651baf-4522-4d9a-8704-7c677b19f4c6" name="Changes" comment="IO,泛型和一點Annotation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Annotation/MyAnnotationTestMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classLoad/ClassLoadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/classLoad/LoaderMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/ClassTypeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/DynamicReflectionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/ExampleGetClassMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/MyStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/ReflectionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/TestORMMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/TestReflectionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/TestReflectionSpeedMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/reflection/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/unitTest/UnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTest/UnitTestTest1.java" afterDir="false" />
+    <list default="true" id="5c651baf-4522-4d9a-8704-7c677b19f4c6" name="Changes" comment="反射,單元測試">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataBase/JDBCMySqlDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitTest/AbsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitTest/TestSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/unitTest/UnitTest2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Annotation/MyAnnotationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Annotation/MyAnnotationMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recursive/BinaryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursive/BinaryMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unitTest/UnitTestTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTest/UnitTestTest1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +22,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="98ebea7f-4c2c-4a3a-a2c9-1f9c5a327eb7" />
+        <option name="url" value="https://github.com/a93151127/martinPracticeJva.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
@@ -83,6 +86,11 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -103,7 +111,7 @@
       <recent name="io" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UnitTestTest1">
+  <component name="RunManager" selected="Application.JDBCMySqlDemo">
     <configuration name="CopyMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.fileStream.CopyMain" />
       <module name="martinPractice" />
@@ -118,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestORMMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.TestORMMain" />
+    <configuration name="JDBCMySqlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataBase.JDBCMySqlDemo" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="dataBase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,15 +152,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReflectionSpeedMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.TestReflectionSpeedMain" />
+    <configuration name="AbsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.*" />
+          <option name="PATTERN" value="unitTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="unitTest" />
+      <option name="MAIN_CLASS_NAME" value="unitTest.AbsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="martinPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unitTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="unitTest" />
+      <option name="MAIN_CLASS_NAME" value="unitTest.UnitTest2" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,38 +213,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTestTest1.sub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="martinPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTest" />
-      <option name="MAIN_CLASS_NAME" value="unitTest.UnitTestTest1" />
-      <option name="METHOD_NAME" value="sub" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.TestReflectionMain" />
       <item itemvalue="Application.CopyMain" />
-      <item itemvalue="Application.TestORMMain" />
-      <item itemvalue="Application.TestReflectionSpeedMain" />
+      <item itemvalue="Application.JDBCMySqlDemo" />
+      <item itemvalue="JUnit.AbsTest" />
+      <item itemvalue="JUnit.UnitTest2" />
       <item itemvalue="JUnit.UnitTestTest1" />
       <item itemvalue="JUnit.UnitTestTest1.add" />
-      <item itemvalue="JUnit.UnitTestTest1.sub" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JDBCMySqlDemo" />
+        <item itemvalue="JUnit.UnitTest2" />
         <item itemvalue="JUnit.UnitTestTest1" />
         <item itemvalue="JUnit.UnitTestTest1.add" />
-        <item itemvalue="JUnit.UnitTestTest1.sub" />
-        <item itemvalue="Application.TestORMMain" />
-        <item itemvalue="Application.TestReflectionSpeedMain" />
+        <item itemvalue="JUnit.AbsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +261,7 @@
       <workItem from="1675391046545" duration="21714000" />
       <workItem from="1675480468705" duration="14530000" />
       <workItem from="1678079074550" duration="13458000" />
+      <workItem from="1678155030131" duration="9995000" />
     </task>
     <task id="LOCAL-00001" summary="test idea commit">
       <created>1675331858502</created>
@@ -274,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675418104591</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="反射,單元測試">
+      <created>1678155079348</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678155079348</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +311,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test idea commit" />
     <MESSAGE value="IO,泛型和一點Annotation" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO,泛型和一點Annotation" />
+    <MESSAGE value="反射,單元測試" />
+    <option name="LAST_COMMIT_MESSAGE" value="反射,單元測試" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
