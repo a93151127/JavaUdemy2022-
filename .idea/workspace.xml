@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c651baf-4522-4d9a-8704-7c677b19f4c6" name="Changes" comment="反射,單元測試">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataBase/JDBCMySqlDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTest/AbsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTest/TestSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/unitTest/UnitTest2.java" afterDir="false" />
+    <list default="true" id="5c651baf-4522-4d9a-8704-7c677b19f4c6" name="Changes" comment="單元測試,jdbc">
+      <change afterPath="$PROJECT_DIR$/META-INF/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/FunctionalInterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/LambdaDefaultDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/LambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/LambdaDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lambda/ParrallelSortMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/CollectMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/GroupByMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/IntStreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/ParrallelMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/StreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stream/StreamReductionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unitTest/UnitTestTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unitTest/UnitTestTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dataBase/JDBCMySqlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dataBase/JDBCMySqlDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +38,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -84,7 +91,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -108,10 +115,24 @@
       <recent name="unitTest" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="lambda" />
       <recent name="io" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JDBCMySqlDemo">
+  <component name="RunManager" selected="Application.GroupByMain">
+    <configuration name="CollectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.CollectMain" />
+      <module name="martinPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CopyMain" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.fileStream.CopyMain" />
       <module name="martinPractice" />
@@ -126,12 +147,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDBCMySqlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataBase.JDBCMySqlDemo" />
+    <configuration name="GroupByMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.GroupByMain" />
       <module name="martinPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dataBase.*" />
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntStreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.IntStreamMain" />
+      <module name="martinPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParrallelMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.ParrallelMain" />
+      <module name="martinPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamReductionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stream.StreamReductionMain" />
+      <module name="martinPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,83 +212,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AbsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="martinPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTest" />
-      <option name="MAIN_CLASS_NAME" value="unitTest.AbsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="martinPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTest" />
-      <option name="MAIN_CLASS_NAME" value="unitTest.UnitTest2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitTestTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="martinPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTest" />
-      <option name="MAIN_CLASS_NAME" value="unitTest.UnitTestTest1" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitTestTest1.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="martinPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="unitTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="unitTest" />
-      <option name="MAIN_CLASS_NAME" value="unitTest.UnitTestTest1" />
-      <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.TestReflectionMain" />
       <item itemvalue="Application.CopyMain" />
-      <item itemvalue="Application.JDBCMySqlDemo" />
-      <item itemvalue="JUnit.AbsTest" />
-      <item itemvalue="JUnit.UnitTest2" />
-      <item itemvalue="JUnit.UnitTestTest1" />
-      <item itemvalue="JUnit.UnitTestTest1.add" />
+      <item itemvalue="Application.CollectMain" />
+      <item itemvalue="Application.GroupByMain" />
+      <item itemvalue="Application.IntStreamMain" />
+      <item itemvalue="Application.ParrallelMain" />
+      <item itemvalue="Application.StreamReductionMain" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JDBCMySqlDemo" />
-        <item itemvalue="JUnit.UnitTest2" />
-        <item itemvalue="JUnit.UnitTestTest1" />
-        <item itemvalue="JUnit.UnitTestTest1.add" />
-        <item itemvalue="JUnit.AbsTest" />
+        <item itemvalue="Application.GroupByMain" />
+        <item itemvalue="Application.CollectMain" />
+        <item itemvalue="Application.StreamReductionMain" />
+        <item itemvalue="Application.ParrallelMain" />
+        <item itemvalue="Application.IntStreamMain" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +260,11 @@
       <workItem from="1675391046545" duration="21714000" />
       <workItem from="1675480468705" duration="14530000" />
       <workItem from="1678079074550" duration="13458000" />
-      <workItem from="1678155030131" duration="9995000" />
+      <workItem from="1678155030131" duration="13251000" />
+      <workItem from="1678243465531" duration="1351000" />
+      <workItem from="1678245953263" duration="2341000" />
+      <workItem from="1678262767487" duration="3058000" />
+      <workItem from="1679274580180" duration="19854000" />
     </task>
     <task id="LOCAL-00001" summary="test idea commit">
       <created>1675331858502</created>
@@ -291,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678155079348</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="單元測試,jdbc">
+      <created>1678174960119</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678174960119</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +322,8 @@
     <MESSAGE value="test idea commit" />
     <MESSAGE value="IO,泛型和一點Annotation" />
     <MESSAGE value="反射,單元測試" />
-    <option name="LAST_COMMIT_MESSAGE" value="反射,單元測試" />
+    <MESSAGE value="單元測試,jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="單元測試,jdbc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

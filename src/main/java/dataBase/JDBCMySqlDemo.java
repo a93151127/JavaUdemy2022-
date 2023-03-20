@@ -23,7 +23,7 @@ public class JDBCMySqlDemo {
         ResultSet result = pre.executeQuery();
 
         while(result.next()){
-            System.out.println(result.getString("user_rank_id"));
+            System.out.println(result.getString("user_rank_name"));
         }
     }
 }
